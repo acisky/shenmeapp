@@ -97,19 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: brewski
-theme_config:
-  logo:
-  google_analytics: UA-XXXXXXXX-X
-  copyright:
-    since: 2023
-    name: John Doe
-    url: https://www.example.org/john-doe
-  menu:
-    Home: /
-    About: /about
-    GitHub: https://github.com/tiaanduplessis
-    RSS: /atom.xml
+theme: huxblog
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
