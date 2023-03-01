@@ -5,6 +5,7 @@
 # Site
 title: ShenmeApp
 subtitle: 'Resources For App Developers'
+header-img: 'test'
 description: ''
 keywords:
 author: Aci
@@ -40,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -103,3 +104,13 @@ theme: huxblog
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# hexo-generator-category
+category_generator:
+  per_page: 10
+  order_by: -date
+
+#hexo-generator-tag
+tag_generator:
+  per_page: 10
+  order_by: -date
